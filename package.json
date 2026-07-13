@@ -1,12 +1,13 @@
 {
-  "name": "one-good-week",
+  "name": "proof",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node --env-file-if-exists=.env server.mjs",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "NODE_ENV=production node --env-file-if-exists=.env server.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

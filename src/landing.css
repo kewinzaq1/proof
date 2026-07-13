@@ -128,3 +128,4 @@ footer { min-height: 90px; padding: 25px clamp(24px, 5.5vw, 84px); background: #
   .access-section { grid-template-columns: 1fr; padding: 90px 19px; }.access-section h2 { font-size: 69px; }.access-section form > div { flex-direction: column; border: 0; }.access-section input { border-bottom: 1px solid #585850; }.access-section form button { min-height: 48px; justify-content: center; margin-top: 12px; }
   footer { flex-direction: column; text-align: center; padding: 35px 20px; }
 }
+
